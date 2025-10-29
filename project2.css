@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 30px;
+  word-spacing: 4px;
+}
+a {
+  color: rgb(9, 73, 162);
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+a.active {
+  border-bottom: 3px solid;
+  color: rgb(3, 47, 107);
+}
+a:hover {
+  border-bottom: 3px solid;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 79%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  position: sticky;
+  margin: auto;
+  z-index: 1;
+  top: 0;
+  background-color: rgba(220, 220, 220, 0.362);
+}
+header {
+  width: 40%;
+}
+.header {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+.contaner {
+  display: flex;
+  height: 578px;
+  justify-content: center;
+}
+.sign_in {
+  margin-top: 100px;
+  text-align: center;
+  padding: 81px;
+  border-radius: 55px;
+  background-color: rgba(230, 230, 250, 0);
+  line-height: 20px;
+  width: 300px;
+  margin-bottom: 100px;
+  border: 1px solid black;
+}
+.password,.email {
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+}
+.email:hover {
+  background-color: lightgrey;
+}
+.password:hover {
+  background-color: lightgrey;
+}
+.submit {
+  border-radius: 5px;
+  background-color: rgb(102, 151, 157);
+  color: white;
+  width: 25%;
+  height: 30px;
+  font-size: 18px;
+  border: 1px solid black;
+}
+.submit:hover {
+  background-color: rgb(74, 124, 131);
+}
+body {
+  background-color: rgb(83, 114, 120);
+  height: 100vh;
+}

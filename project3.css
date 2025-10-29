@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+}
+h2 {
+  font-size: 30px;
+  word-spacing: 4px;
+}
+a {
+  color: rgb(9, 73, 162);
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+a.active {
+  border-bottom: 3px solid;
+  color: rgb(3, 47, 107);
+}
+a:hover {
+  border-bottom: 3px solid;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 79%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  position: sticky;
+  margin: auto;
+  z-index: 1;
+  top: 0;
+  background-color: rgba(220, 220, 220, 0.362);
+}
+.Contact_Us {
+  width: 40%;
+}
+.container {
+  height: 673px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  text-align: center;
+  border-radius: 5px;
+  background: linear-gradient(to right, #ff0000, #ff9900, #00ccff);
+  color: white;
+}
+.button {
+  color: white;
+  background-color: rgb(108, 170, 184);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.button:hover {
+  background-color: rgb(89, 144, 157);
+}
+.email {
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.403);
+}
+.email:hover {
+  background-color: rgba(203, 202, 202, 0.664);
+}
+form {
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.403);
+  border-radius: 5px;
+}
+.textarea {
+  height: 200px;
+  width: 400px;
+  border-radius: 5px;
+}
+.textarea:hover {
+  background-color: rgba(203, 202, 202, 0.664);
+}

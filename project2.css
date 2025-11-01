@@ -36,7 +36,6 @@ nav {
   top: 0;
   background-color: rgba(220, 220, 220, 0.362);
 }
-
 header {
   width: 40%;
 }
@@ -86,6 +85,5 @@ header {
   background-color: rgb(74, 124, 131);
 }
 body {
-  background-color: rgb(83, 114, 120);
   height: 100vh;
 }

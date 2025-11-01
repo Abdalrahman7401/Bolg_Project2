@@ -3,7 +3,7 @@
 A simple and elegant **Blog Website** built using HTML & CSS.  
 This design displays blog cards with images, titles, and short descriptions — perfect for practicing layout and responsive design.
 
----
+----
 
 ## ✨ Preview
 
@@ -11,7 +11,7 @@ This design displays blog cards with images, titles, and short descriptions — 
   <img src="./Screenshot%202025-11-01%20121429.png" alt="Blog Site Preview" width="800" style="border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
 </p>
 
----
+----
 
 ## 🧩 Features
 - Responsive blog card layout  
@@ -25,7 +25,7 @@ This design displays blog cards with images, titles, and short descriptions — 
 - **HTML5**
 - **CSS3**
 
----
+----
 
 ## 🚀 How to Use
 1. Clone the repository  

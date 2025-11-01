@@ -13,7 +13,8 @@ img {
 }
 a {
   color: rgb(9, 73, 162);
-  font-size: 18px;
+  font-size: 1.2vw;
+  text-transform: capitalize;
   text-decoration: none;
 }
 a.active {
@@ -44,7 +45,8 @@ header {
   width: 40%;
 }
 h2 {
-  font-size: 30px;
+  text-transform: capitalize;
+  font-size: 2vw;
   word-spacing: 4px;
 }
 h3 {

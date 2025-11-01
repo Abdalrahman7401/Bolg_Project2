@@ -1,14 +1,14 @@
 * {
   margin: 0;
-  text-transform: capitalize;
 }
 h2 {
-  font-size: 30px;
+  text-transform: capitalize;
+  font-size: 2vw;
   word-spacing: 4px;
 }
 a {
   color: rgb(9, 73, 162);
-  font-size: 18px;
+  font-size: 1.2vw;
   text-transform: capitalize;
   text-decoration: none;
 }
@@ -37,13 +37,8 @@ nav {
   background-color: rgba(220, 220, 220, 0.362);
 }
 header {
+  text-transform: capitalize;
   width: 40%;
-}
-.header {
-  background-color: blue;
-  color: white;
-  padding: 15px;
-  text-align: center;
 }
 .contaner {
   display: flex;
@@ -57,14 +52,23 @@ header {
   border-radius: 55px;
   background-color: rgba(230, 230, 250, 0);
   line-height: 20px;
-  width: 300px;
+  width: 28%;
   margin-bottom: 100px;
-  border: 1px solid black;
+  border: 2px solid rgba(0, 0, 0, 0.403);
 }
 .password,.email {
-  width: 200px;
+  width: 107%;
   height: 25px;
   border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.403);
+}
+@media (min-width:900px) {
+  .password,.email{
+    width: 70%;
+  }
+  .sign_in{
+    width: 21%;
+  }
 }
 .email:hover {
   background-color: lightgrey;
@@ -73,17 +77,21 @@ header {
   background-color: lightgrey;
 }
 .submit {
-  border-radius: 5px;
-  background-color: rgb(102, 151, 157);
   color: white;
-  width: 25%;
-  height: 30px;
-  font-size: 18px;
-  border: 1px solid black;
+  background-color: rgb(108, 170, 184);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
 }
 .submit:hover {
   background-color: rgb(74, 124, 131);
 }
 body {
   height: 100vh;
+}
+.login_text{
+  font-size: 35px;
 }

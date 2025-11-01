@@ -2,12 +2,13 @@
   margin: 0;
 }
 h2 {
-  font-size: 30px;
+  text-transform: capitalize;
+  font-size: 2vw;
   word-spacing: 4px;
 }
 a {
   color: rgb(9, 73, 162);
-  font-size: 18px;
+  font-size: 1.2vw;
   text-transform: capitalize;
   text-decoration: none;
 }
@@ -39,7 +40,7 @@ nav {
   width: 40%;
 }
 .container {
-  height: 673px;
+  height: 84dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,22 +65,23 @@ nav {
   background-color: rgb(89, 144, 157);
 }
 .email {
-  width: 200px;
+  width: 98%;
   border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.403);
+  border: 2px solid rgba(0, 0, 0, 0.403);
 }
 .email:hover {
   background-color: rgba(203, 202, 202, 0.664);
 }
 form {
-  padding: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.403);
+  padding: 28px;
+  width: 127%;
+  border: 2px solid rgba(0, 0, 0, 0.403);
   border-radius: 5px;
 }
 .textarea {
-  height: 200px;
-  width: 400px;
+  width: 98%;
   border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.403);
 }
 .textarea:hover {
   background-color: rgba(203, 202, 202, 0.664);

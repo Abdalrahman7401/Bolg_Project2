@@ -2,6 +2,9 @@
   margin: 0;
   text-transform: capitalize;
 }
+html{
+  scroll-behavior: smooth;
+}
 ::-webkit-scrollbar{
     display:none;
 }

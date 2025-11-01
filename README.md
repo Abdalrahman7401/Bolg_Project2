@@ -8,7 +8,7 @@ This design displays blog cards with images, titles, and short descriptions — 
 ## ✨ Preview
 
 <p align="center">
-  <img src="./Screenshot%202025-11-01%20121429.png" alt="Blog Site Preview" width="800" style="border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+  <img src="./Image/Screenshot%202025-11-01%20121429.png" alt="Blog Site Preview" width="800" style="border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
 </p>
 
 ----

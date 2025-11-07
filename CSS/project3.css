@@ -1,30 +1,34 @@
 * {
   margin: 0;
 }
+
 h2 {
   text-transform: capitalize;
-  font-size: 2vw;
   word-spacing: 4px;
 }
+
 a {
   color: rgb(9, 73, 162);
-  font-size: 1.2vw;
   text-transform: capitalize;
   text-decoration: none;
 }
+
 a.active {
   border-bottom: 3px solid;
   color: rgb(3, 47, 107);
 }
+
 a:hover {
   border-bottom: 3px solid;
 }
+
 ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
   width: 79%;
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -36,21 +40,25 @@ nav {
   top: 0;
   background-color: rgba(220, 220, 220, 0.362);
 }
+
 .Contact_Us {
   width: 40%;
 }
+
 .container {
   height: 84dvh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .header {
   text-align: center;
   border-radius: 5px;
   background: linear-gradient(to right, #ff0000, #ff9900, #00ccff);
   color: white;
 }
+
 .button {
   color: white;
   background-color: rgb(108, 170, 184);
@@ -61,28 +69,34 @@ nav {
   border-radius: 5px;
   margin-top: 10px;
 }
+
 .button:hover {
   background-color: rgb(89, 144, 157);
 }
+
 .email {
   width: 98%;
   border-radius: 5px;
   border: 2px solid rgba(0, 0, 0, 0.403);
 }
+
 .email:hover {
   background-color: rgba(203, 202, 202, 0.664);
 }
+
 form {
   padding: 28px;
-  width: 127%;
+  width: 98%;
   border: 2px solid rgba(0, 0, 0, 0.403);
   border-radius: 5px;
 }
+
 .textarea {
   width: 98%;
   border-radius: 5px;
   border: 2px solid rgba(0, 0, 0, 0.403);
 }
+
 .textarea:hover {
   background-color: rgba(203, 202, 202, 0.664);
 }
